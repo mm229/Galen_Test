@@ -1,0 +1,57 @@
+{
+  "testId" : "1-demo.gspec",
+  "name" : "demo.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  demo.gspec --url http:www.baidu.com --size 1024x768 --htmlreport report1 -Dwebdriver.chrome.driver=/Users/mmyang/.nvm/versions/node/v6.2.1/lib/node_modules/galenframework-cli/node_modules/chromedriver/lib/chromedriver/chromedriver -Dwebdriver.gecko.driver=/Users/mmyang/.nvm/versions/node/v6.2.1/lib/node_modules/galenframework-cli/node_modules/geckodriver/bin/geckodriver",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: demo.gspec included tags: ",
+          "status" : "info",
+          "time" : 1492074660057,
+          "sections" : [ {
+            "name" : "= Main section =",
+            "place" : {
+              "filePath" : "demo.gspec",
+              "lineNumber" : 4
+            },
+            "objects" : [ {
+              "name" : "main-logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "demo.gspec",
+                  "lineNumber" : 6
+                },
+                "name" : "height 132px",
+                "highlight" : [ "main-logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "demo.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width  1024px",
+                "highlight" : [ "main-logo" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "main-logo" : {
+              "area" : [ 0, 58, 1024, 132 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1492074658938,
+        "type" : "node"
+      } ],
+      "time" : 1492074656523,
+      "type" : "node"
+    } ]
+  }
+}
