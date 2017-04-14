@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "Home page on desktop device",
+    "startedAt" : 1492156061895,
+    "endedAt" : 1492156122651,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 5,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 6
+    },
+    "testId" : "1-home-page-on-desktop-device",
+    "duration" : 60756,
+    "failed" : true
+  } ]
+}

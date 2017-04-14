@@ -1,0 +1,14 @@
+@objects
+ leaderboard   css  .rui-leaderboard
+ logo  css  .rui-main-logo
+
+= DS index =
+    leaderboard:
+      @on desktop
+        height   90px
+        width    ~729px
+        right-of logo 10px
+    logo:
+      @on desktop
+        height 42px
+        width  232px

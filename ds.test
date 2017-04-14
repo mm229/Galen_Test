@@ -1,0 +1,11 @@
+@@ set domain www.realestate.com.au/buy
+
+@@ table devices
+   | deviceName  | size     | tags   |
+   | desktop     | 1024x768 | desktop|
+
+@@ parameterized using devices
+Home page on ${deviceName} device
+      http://${domain}/  ${size}
+        run search.js
+        check ds.gspec --include "${tags}"

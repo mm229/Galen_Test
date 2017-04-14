@@ -1,0 +1,95 @@
+{
+  "testId" : "1-home-page-on-desktop-device",
+  "name" : "Home page on desktop device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://www.realestate.com.au/buy/  1024x768",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "run search.js",
+        "status" : "info",
+        "time" : 1492156090960,
+        "type" : "node"
+      }, {
+        "name" : "check ds.gspec --include \"desktop\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: ds.gspec included tags: desktop",
+          "status" : "error",
+          "time" : 1492156122565,
+          "includedTags" : [ "desktop" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "DS index",
+            "place" : {
+              "filePath" : "ds.gspec",
+              "lineNumber" : 5
+            },
+            "objects" : [ {
+              "name" : "leaderboard",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "ds.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "height   90px",
+                "highlight" : [ "leaderboard" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "ds.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "width    ~729px",
+                "highlight" : [ "leaderboard" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "ds.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "right-of logo 10px",
+                "errors" : [ "\"leaderboard\" is 50px right of \"logo\" instead of 10px" ],
+                "highlight" : [ "leaderboard", "logo" ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "ds.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "height 42px",
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "ds.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "width  232px",
+                "highlight" : [ "logo" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "leaderboard" : {
+              "area" : [ 282, 15, 728, 90 ]
+            },
+            "logo" : {
+              "area" : [ 0, 34, 232, 42 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1492156121227,
+        "type" : "node"
+      } ],
+      "time" : 1492156061897,
+      "type" : "node"
+    } ]
+  }
+}
