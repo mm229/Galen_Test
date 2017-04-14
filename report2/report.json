@@ -1,0 +1,45 @@
+{
+  "tests" : [ {
+    "name" : "Home page on mobile device",
+    "startedAt" : 1492139547718,
+    "endedAt" : 1492139568660,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 4,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 4
+    },
+    "testId" : "1-home-page-on-mobile-device",
+    "failed" : false,
+    "duration" : 20942
+  }, {
+    "name" : "Home page on ipad device",
+    "startedAt" : 1492139568661,
+    "endedAt" : 1492139590262,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 2,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 2
+    },
+    "testId" : "2-home-page-on-ipad-device",
+    "failed" : false,
+    "duration" : 21601
+  }, {
+    "name" : "Home page on desktop device",
+    "startedAt" : 1492139590263,
+    "endedAt" : 1492139626483,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 4,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 4
+    },
+    "testId" : "3-home-page-on-desktop-device",
+    "failed" : false,
+    "duration" : 36220
+  } ]
+}
